@@ -26,4 +26,11 @@ setup(
         'Topic :: Internet :: WWW/HTTP',
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
     ],
+    install_requires=[
+        'Django>=3.0',  # Adjust the version according to your needs
+        'requests',     # Example of an additional package
+        'djangorestframework',
+        'djangorestframework-simplejwt',
+        # Add other dependencies here
+    ],
 )
