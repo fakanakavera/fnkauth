@@ -1,0 +1,4 @@
+include README.md
+include LICENSE
+recursive-include fnkauth/static *
+recursive-include fnkauth/templates *
