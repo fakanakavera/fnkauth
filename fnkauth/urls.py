@@ -1,5 +1,5 @@
 from django.urls import path
-from views.email import email_verify
+from .views.email import email_verify
 from .views.auth import register, change_password, get_user_email, CustomTokenObtainPairView
 from .views.accounts import change_nickname
 from .views.test import ItemListView
