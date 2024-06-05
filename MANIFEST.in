@@ -2,3 +2,4 @@ include README.md
 include LICENSE
 recursive-include fnkauth/static *
 recursive-include fnkauth/templates *
+recursive-include fnkauth/views *
